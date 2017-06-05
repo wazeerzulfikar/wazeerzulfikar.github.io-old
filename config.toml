@@ -49,7 +49,7 @@ blogs1link = "/gsoc-blog/"
 # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
 project1link    = "http://github.com/wazeerzulfikar/rtensorflow"
 project1img     = "img/gsoc.png"
-project1title   = "GSoC '17 Project"
+project1title   = "rTensorFlow"
 
 project2link    = "https://github.com/wazeerzulfikar/traffic-signs-recognition"
 project2img     = "img/traffic.jpg"
