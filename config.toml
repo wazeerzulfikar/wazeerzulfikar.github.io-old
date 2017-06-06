@@ -18,7 +18,7 @@ blog  = "blog/:slug/"
 [params]
 author        = "Wazeer Zulfikar" # Full name shows on blog post pages
 firstname     = "Wazeer" # First name shows in introduction on main page
-tagline       = "Code • Gym • Travel" # Appears after the introduction
+tagline       = "Code • Fitness • Travel" # Appears after the introduction
 introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
 theme         = "light" # Choose 'light' or 'dark'
 avatar        = "img/avatar.png" # Path to image in static folder eg. img/avatar.png
