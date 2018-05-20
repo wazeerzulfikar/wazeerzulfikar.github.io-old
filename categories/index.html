@@ -14,10 +14,10 @@
 <title>
 
 
-     404 Page not found 
+     Categories 
 
 </title>
-<link rel="canonical" href="">
+<link rel="canonical" href="https://wazeerzulfikar.github.io/categories/">
 
 
 
@@ -57,6 +57,8 @@
 
 
 
+  <link href="https://wazeerzulfikar.github.io/categories/index.xml" rel="alternate" type="application/rss+xml" title="Wazeer Zulfikar" />
+
 
 
 </head>
@@ -66,12 +68,12 @@
 
 <div class="section" id="top">
 
-    <div class="container hero is-medium has-text-centered  fade-in one ">
-    <h1 class="bold-title is-1">404</h1>
+    <div class="container hero  fade-in one ">
+    <h1 class="bold-title is-1">Wazeer's Blog</h1>
     </div>
 
-
-<div class="section  fade-in two ">
+    
+    <div class="section no-padding  fade-in two ">
 
     <div class="container">
     <hr>
@@ -95,12 +97,7 @@
     
     
       <span class="nav-item">
-        <a href="https://wazeerzulfikar.github.io/#blogs">Blogs</a>
-      </span>
-    
-    
-      <span class="nav-item">
-        <a href="https://wazeerzulfikar.github.io/blog">Back to blog</a>
+        <a href="https://wazeerzulfikar.github.io/#blogs">Blogs</a> 
       </span>
     
       <span class="nav-item">
@@ -116,12 +113,24 @@
 <hr>
 
     </div>
+       
+    <div class="container">
 
-    <div class="container  fade-in two  top-pad">
-        Oops! Either you've found a bug (in which case, <a href="mailto:wazeer.zulfikar@gmail.com">please tell me</a>) or you're just making things up. This page doesn't exist!
+    
+
+    <h2 class="title is-2 top-pad">All Posts</h2>
+        <ul>
+        
+        </ul>
+
     </div>
 
-<div class="top-pad"><hr></div>
+<div class="container has-text-centered top-pad">
+<hr>
+<a href="https://wazeerzulfikar.github.io/categories/#top"><i class="fa fa-arrow-up"></i></a>
+<hr>
+</div>
+
 <div class="section" id="footer">
     <div class="container has-text-centered">
         
@@ -131,3 +140,16 @@
 </div>
 
 </div>
+</div>
+
+
+<script>
+$('a[href^="https:\/\/wazeerzulfikar.github.io\/categories\/#"]').click(function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $('html, body').animate({
+    scrollTop: $(target).offset().top
+    }, 500);
+    return false;
+})
+</script>
