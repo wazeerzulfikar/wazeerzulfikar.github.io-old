@@ -44,7 +44,10 @@ sharebuttons    = true # On post pages, show share this social buttons
 showprojects    = true # Show Projects section on home page
 
 blogs1 = "GSoC '17 Blog"
-blogs1link = "/gsoc-blog/"
+blogs1link = "/gsoc-blog-17/"
+
+blogs2 = "GSoC '18 Blog"
+blogs2link = "/gsoc-blog-18/"
 
 # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
 project1link    = "http://github.com/wazeerzulfikar/rtensorflow"
